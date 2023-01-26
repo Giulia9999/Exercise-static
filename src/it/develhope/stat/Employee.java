@@ -1,18 +1,15 @@
 package it.develhope.stat;
 
 public class Employee {
-    private String name;
-    private String surname;
-    private String address;
+    private final String name;
+    private final String surname;
+    private final String address;
 
     public String getName(){
         return name;
     }
     public String getSurname(){
         return surname;
-    }
-    public String getAddress(){
-        return address;
     }
 
     public Employee(String newEmployeeName, String newEmployeeSurname, String newEmployeeAddress){

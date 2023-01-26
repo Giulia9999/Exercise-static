@@ -1,10 +1,7 @@
 package it.develhope.stat;
-
-import java.util.Random;
-
 public class Badge {
     private static int totalNumberOfEmployees;
-    private String badgeIdCode;
+    private final String badgeIdCode;
     public Employee employee;
 
     private static void keepTrackOfEmployeesNumber(){
