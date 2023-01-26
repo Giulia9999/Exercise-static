@@ -2,7 +2,7 @@ package it.develhope.stat;
 
 public class Start {
     public static void main(String[] args) {
-        Employee john = new Employee("John", "Smith", "Via padova");
-        Badge badge = new Badge(john);
+        Employee employee1 = new Employee("Luca", "Rossi", "Via Nino Bixio");
+        Employee employee2 = new Employee("Giulia", "Contarino", "Via Giuseppe Gribaldi");
     }
 }
