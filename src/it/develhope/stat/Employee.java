@@ -10,4 +10,8 @@ public class Employee {
         this.surname = newEmployeeSurname;
         this.address = newEmployeeAddress;
     }
+
+    public String getEmployeeDetails(){
+        return name + " - " + surname + " - " + address;
+    }
 }
