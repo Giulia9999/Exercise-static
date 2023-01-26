@@ -12,4 +12,10 @@ public class Badge {
     private String generateBadgeIdCode(){
         return "XYZ"+employee.getName()+employee.getSurname()+"ZYX";
     }
+
+    public void showBadgeDetails(){
+        System.out.printf("The total number of employees is %d",totalNumberOfEmployees);
+        System.out.printf("Employee details: %s", employee.getEmployeeDetails());
+        System.out.printf("Badge Id code: %s", badgeIdCode);
+    }
 }
