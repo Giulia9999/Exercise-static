@@ -1,7 +1,6 @@
 package it.develhope.stat;
 
 import java.util.Random;
-import java.util.UUID;
 
 public class Badge {
     private static int totalNumberOfEmployees;
@@ -25,7 +24,6 @@ public class Badge {
     public Badge(Employee employeeThatNeedsBadge){
         keepTrackOfEmployeesNumber();
         this.employee = employeeThatNeedsBadge;
-        Random random = new Random();
-        badgeIdCode = Integer.toString(random.nextInt(1000,2000));
+        badgeIdCode = generateBadgeIdCode();
     }
 }
