@@ -7,5 +7,8 @@ public class Start {
 
         Badge employee1Badge = new Badge(employee1);
         Badge employee2Badge = new Badge(employee2);
+
+        employee1Badge.showBadgeDetails();
+        employee2Badge.showBadgeDetails();
     }
 }
